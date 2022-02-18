@@ -1,6 +1,9 @@
 # PizzaFactory
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.1.
+This project show us the Abstract Factory Pattern. The Angular version is 13.2.0
+
+## UML Design
+<img width="531" alt="Diagrama" src="https://user-images.githubusercontent.com/9245775/154513627-c8377132-7e16-45a5-b482-93c564ff6c59.png">
 
 ## Development server
 
