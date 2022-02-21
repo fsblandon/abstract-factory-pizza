@@ -2,8 +2,13 @@
 
 This project show us the Abstract Factory Pattern. The Angular version is 13.2.0
 
-## UML Design
-<img width="531" alt="Diagrama" src="https://user-images.githubusercontent.com/9245775/154513627-c8377132-7e16-45a5-b482-93c564ff6c59.png">
+## Class Diagram
+![Pizza1-Estructura (3) (1)](https://user-images.githubusercontent.com/9245775/154712939-b8a72210-e8eb-4231-a178-452ab227b183.jpg)
+
+
+## Secuence Diagram
+![image](https://user-images.githubusercontent.com/9245775/154724296-8f093534-11dd-44ca-a36b-499b887aaaf2.png)
+
 
 ## Development server
 
