@@ -26,11 +26,11 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  getCountry(country: any, index: number) {
+  getCountry(country: any) {
     this.countrySelected = country;
   }
 
-  getPizza(pizza: any, index: number) {
+  getPizza(pizza: any) {
     this.pizzaSelected = pizza;
   }
 
@@ -43,13 +43,9 @@ export class AppComponent implements OnInit {
     //Call Concrete Product
     if(this.pizzaSelected === 'Hawaiana') {
       this.result = this.service.createHawaiana();
-    }
-
-    if(this.pizzaSelected === 'Champinon') {
+    } else if(this.pizzaSelected === 'Champinon') {
       this.result = this.service.createChampinon();
-    }
-
-    if(this.pizzaSelected === 'Tocino') {
+    } else if(this.pizzaSelected === 'Tocino') {
       this.result = this.service.createTocino();
     }
   }
